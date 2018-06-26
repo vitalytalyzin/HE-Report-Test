@@ -122,6 +122,10 @@
   .line .content__title {
     padding-top: 22px;
   }
+
+  .bottom-grid {
+    padding-bottom: 30px;
+  }
   .bottom-grid__item:nth-child(1), .bottom-grid__item:nth-child(2) {
     min-width: 146px;
   }
@@ -155,6 +159,9 @@
   }
   .line .static-message__numbers {
     width: 100%;
+  }
+  .bottom-grid {
+    padding-bottom: 30px;
   }
 }
 
@@ -327,6 +334,7 @@
   }
   .bottom-grid {
     flex-direction: column;
+    padding-bottom: 30px;
   }
   .bottom-grid__item:nth-child(1),
   .bottom-grid__item:nth-child(2) {
